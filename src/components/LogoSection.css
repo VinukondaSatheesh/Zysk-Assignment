@@ -1,0 +1,60 @@
+/* Styling for the logo section */
+* {
+  font-family: Inter;
+  margin: 0;
+  padding: 0;
+}
+.logo-section {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .logo-text {
+    font-size: 15px;
+    color: #333;
+  }
+  
+  .logos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .logo img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .logo span {
+    font-size: 1rem;
+    color: #333;
+  }
+ 
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .logos-container {
+      justify-content: center;
+    }
+  
+    .logo {
+      width: 100px;
+    }
+  
+    .logo img {
+      width: 60px;
+    }
+  }
+  

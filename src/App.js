@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Footer from './components/Footer'; // Ensure this path is correct
+import ContactSection from './components/ContactSection'; // Ensure this path is correct
+import FAQ from './components/FAQ'; // Ensure this path is correct
+import Feature from './components/Feature'; // Ensure this path is correct
+import TestimonialSection from './components/TestinominalSection'; // Corrected the typo
+import MainFeature from './components/MainFeature'; // Ensure this path is correct
+import LogoSection from './components/LogoSection'; // Ensure this path is correct
+import Navbar from './components/Navbar'; // Ensure this path is correct
+import Blog from './components/BlogSection'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Navbar />
+      <LogoSection />
+      <MainFeature />
+      <TestimonialSection />
+      <Feature />  
+      <FAQ />  
+      <ContactSection /> 
+      <Blog/>
+      <Footer />
     </div>
   );
 }

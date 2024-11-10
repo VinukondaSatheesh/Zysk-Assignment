@@ -1,0 +1,134 @@
+* {
+    font-family: Inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Inter;
+    color: #101828;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.nav-1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.beat-title{
+    font-family: Inter;
+    font-size: 35px;
+    color: #101828;
+}
+.new-feat{
+    border-radius: 15px;
+}
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* New feature section */
+  .new-feature {
+    border-color: blueviolet;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+  }
+  .nav-icon{
+    padding-left: 700px;
+  }
+  .new-feature span {
+    background-color: #f0f4ff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .new-feature a {
+    color: #4c6ef5;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  /* Header and Subtitle */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 15px;
+    color: #475467;
+    margin-bottom: 20px;
+  }
+  
+  /* CTA Buttons */
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .demo {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color:black;
+  }
+  
+  .signup {
+    background-color: blueviolet;
+    color: #fff;
+  }
+  
+
+  
+  .image {
+    align-items: center;
+    height:90vh;
+    width: 180vh;
+  }
+  
+  /* .stats-container{
+    border: 5px solid black;
+    border-radius: 15px;
+  } */
+  
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .dashboard {
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 3rem;
+    }
+    .dashboard {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+  
