@@ -56,10 +56,6 @@
     width: 100%;
     max-width: 1200px;
   }
-  .image{
-    border: 5px solid black;
-    border-radius: 15px;
-  }
   
   .analytics-section {
     width: 100%;
@@ -113,6 +109,9 @@
     text-decoration: none;
     font-weight: bold;
   }
+  .image-1{
+    display: none;
+  }
   
   /* Responsive Styles */
   @media (min-width: 768px) {
@@ -123,6 +122,13 @@
     .features-section {
       grid-template-columns: repeat(2, 1fr);
     }
+    .image-2{
+      display: none;
+    }
+    .image-1{
+      display: block;
+    }
+
   }
   
   @media (min-width: 1024px) {

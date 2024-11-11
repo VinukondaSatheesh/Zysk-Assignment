@@ -25,8 +25,9 @@ const App = () => {
       <main className="dashboard">
         <section className="analytics-section">
           <div className="device-preview">
-            <img className="image"
-              src="https://s3-alpha-sig.figma.com/img/081a/4c6e/48bee3c577d90c805ebc6abe73e441d3?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lCxh4HkZRzbhpDbBiKOIV4mTVjBzbRQEgg268Lidl98wjBj2Wy~HFf38IOf9bSiu024iK11vw3bUThEXuZ1EQr8iz-d-A4lLP-0H5WdFF6f1~FGYO8TdmSq8X8uhKk7MXZmGd9oJtb--Sn5YpNWO6FkIg6sC3THVqXfMJwv9sHOIQZws8bYk~bAfEOG-hPecEulCPusFJ7JQfkyZ8hSv6Oi-G9JQEPBe2TSYX2hyoLVsiIAKdTdg0pm0op5iMX6ml4REkX712ytyjD~BCK6NNofR~KEXKn0GMvp344Se4FUDbdCaGJiKqJXObLSTQrYQiYwf8fY9YuAH0Z6NB4gPUA__" />
+            <img className="image-1"
+                src="https://res.cloudinary.com/dsxcwafcw/image/upload/v1731259713/Content_xit5xp.png" />
+                <img className='image-2' src="https://res.cloudinary.com/dsxcwafcw/image/upload/v1731317786/iPhone_12_Pro_mockup_rp6bf1.png" alt="" />
             </div>
         </section>
 
